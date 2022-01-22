@@ -1,0 +1,39 @@
+/*Corrigindo a posição da imagem do topo*/
+img#multimidia {
+  position: absolute;
+  top: 30px;
+  left: 950px;
+}
+
+/*Posicionando a multimídia e adicionando um fundo*/
+div#tv-radio {
+  width: 900px;
+  height: 580px;
+  margin: auto;
+  background: url(../_imagens/radio-tv.png) no-repeat;
+}
+
+/*Ajustando a largura da página*/
+section#media-base {
+  display: block;
+  width: 940px;
+  margin: auto;
+}
+
+/*Ajustando a posição do áudio*/
+audio#musica {
+  display: block;
+  position: relative;
+  left: 569px;
+  top: 495px;
+  width: 300px;
+}
+
+/*Ajustando a posição do vídeo*/
+video#filme {
+  display: block;
+  position: relative;
+  left: 80px;
+  top: 70px;
+  width: 440px;
+}
