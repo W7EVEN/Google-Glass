@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>O que aconteceu com o Google Glass?</title>
-    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
-    <link rel="stylesheet" type="text/css" href="_css/media.css" />
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/media.css" />
   </head>
-  <script language="javascript" src="_javascript/funcoes.js"></script>
+  <script language="javascript" src="assets/dist/js/funcoes.js"></script>
   <body>
     <div id="interface">
       <header id="cabecalho">
@@ -15,38 +15,38 @@
           <h2>A tecnologia que não deu certo</h2>
         </hgroup>
 
-        <img id="oculos" src="_imagens/glass-oculos-preto-peq.png" />
+        <img id="oculos" src="assets/src/images/glass-oculos-preto-peq.png" />
 
         <nav id="menu">
           <h1>Menu Principal</h1>
           <ul>
             <li
-              onmouseover="mudarFoto('_imagens/home.png')"
-              onmouseout="mudarFoto('_imagens/multimidia.png')"
+              onmouseover="mudarFoto('assets/src/images/home.png')"
+              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
             >
-              <a href="index.att.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/especificacoes.png')"
-              onmouseout="mudarFoto('_imagens/multimidia.png')"
+              onmouseover="mudarFoto('assets/src/images/especificacoes.png')"
+              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
             >
               <a href="specs.html"> Especificações</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/fotos.png')"
-              onmouseout="mudarFoto('_imagens/multimidia.png')"
+              onmouseover="mudarFoto('assets/src/images/fotos.png')"
+              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
             >
               <a href="fotos.html">Fotos</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/multimidia.png')"
-              onmouseout="mudarFoto('_imagens/multimidia.png')"
+              onmouseover="mudarFoto('assets/src/images/multimidia.png')"
+              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
             >
               <a href="multimidia.html">Multimídia</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/contato.png')"
-              onmouseout="mudarFoto('_imagens/multimidia.png')"
+              onmouseover="mudarFoto('assets/src/images/contato.png')"
+              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
             >
               <a href="fale-conosco.html">Fale conosco</a>
             </li>
@@ -60,14 +60,14 @@
               <h3>Glass > Multimídia</h3>
               <h1>Sons e Vídeos:</h1>
               <h2>Por Emmanoel Wallace</h2>
-              <h3 class="direita">Atualizado em 16/01/2022</h3>
+              <h3 class="direita">Atualizado em 22/01/2022</h3>
             </hgroup>
           </header>
 
           <div id="tv-radio">
             <audio id="musica" controls="controls">
               <source
-                src="_media/2009-lovers-carvings-bibio.mp3"
+                src="assets/src/video/2009-lovers-carvings-bibio.mp3"
                 type="audio/mpeg"
               />
               Desculpe, mas não foi possível carregar o áudio, talvez seu
@@ -76,9 +76,12 @@
             <video
               id="filme"
               controls="controls"
-              poster="_imagens/video-mini03.jpg"
+              poster="assets/src/images/video-mini03.jpg"
             >
-              <source src="_media/getting-started.mp4" type="video/mp4" />
+              <source
+                src="assets/src/video/getting-started.mp4"
+                type="video/mp4"
+              />
               Desculpe, mas não foi possível carregar o vídeo, talvez seu
               navegador não seja compatível
             </video>

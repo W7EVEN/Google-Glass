@@ -62,7 +62,7 @@ ul#album li:hover {
 
 /*Ajustando a foto número 1*/
 ul#album li#foto-01 {
-  background: url(../_imagens/galeria-01.jpg) no-repeat;
+  background: url(../../src/images/galeria-01.jpg) no-repeat;
   background-position: 50% 50%;
   background-size: 450px 450px;
   background-color: #ffffff;
@@ -76,7 +76,7 @@ ul#album li#foto-01:hover {
 
 /*Ajustando a foto número 2*/
 ul#album li#foto-02 {
-  background: url(../_imagens/galeria-02.jpg) no-repeat;
+  background: url(../..//src/images/galeria-02.jpg) no-repeat;
   background-position: 50% 50%;
   background-size: 450px 450px;
   background-color: #ffffff;
@@ -90,7 +90,7 @@ ul#album li#foto-02:hover {
 
 /*Ajustando a foto número 3*/
 ul#album li#foto-03 {
-  background: url(../_imagens/galeria-03.jpg) no-repeat;
+  background: url(../../src/images/galeria-03.jpg) no-repeat;
   background-position: 50% 50%;
   background-size: 450px 450px;
   background-color: #ffffff;
@@ -104,7 +104,7 @@ ul#album li#foto-03:hover {
 
 /*Ajustando a foto número 4*/
 ul#album li#foto-04 {
-  background: url(../_imagens/galeria-04.jpg) no-repeat;
+  background: url(../../src/images/galeria-04.jpg) no-repeat;
   background-position: 50% 50%;
   background-size: 450px 450px;
   background-color: #ffffff;
@@ -118,7 +118,7 @@ ul#album li#foto-04:hover {
 
 /*Ajustando a foto número 5*/
 ul#album li#foto-05 {
-  background: url(../_imagens/galeria-05.jpg) no-repeat;
+  background: url(../../src/images/galeria-05.jpg) no-repeat;
   background-position: 50% 50%;
   background-size: 450px 450px;
   background-color: #ffffff;
@@ -132,7 +132,7 @@ ul#album li#foto-05:hover {
 
 /*Ajustando a foto número 6*/
 ul#album li#foto-06 {
-  background: url(../_imagens/galeria-06.jpg) no-repeat;
+  background: url(../../src/images/galeria-06.jpg) no-repeat;
   background-position: 50% 50%;
   background-size: 450px 450px;
   background-color: #ffffff;
