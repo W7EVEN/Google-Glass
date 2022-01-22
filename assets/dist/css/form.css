@@ -53,20 +53,20 @@ fieldset#sexo {
 
 /*Background do id usuario*/
 fieldset#usuario {
-  background: url(../_imagens/icone-contato.png) no-repeat 95% 95%;
+  background: url(../../src/images/icone-contato.png) no-repeat 95% 95%;
 }
 
 /*Background do id endereço*/
 fieldset#endereco {
-  background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%;
+  background: url(../../src/images/icone-endereco.png) no-repeat 95% 95%;
 }
 
 /*Background do id mensagem*/
 fieldset#mensagem {
-  background: url(../_imagens/icone-mensagem.png) no-repeat 95% 95%;
+  background: url(../../src/images/icone-mensagem.png) no-repeat 95% 95%;
 }
 
 /*Background do id compra*/
 fieldset#compra {
-  background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
+  background: url(../../src/images/icone-pagamento.png) no-repeat 95% 95%;
 }

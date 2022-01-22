@@ -10,7 +10,7 @@ div#tv-radio {
   width: 900px;
   height: 580px;
   margin: auto;
-  background: url(../_imagens/radio-tv.png) no-repeat;
+  background: url(../../src/images/radio-tv.png) no-repeat;
 }
 
 /*Ajustando a largura da página*/

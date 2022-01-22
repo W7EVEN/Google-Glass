@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>O que aconteceu com o Google Glass?</title>
-    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
-    <link rel="stylesheet" type="text/css" href="_css/form.css" />
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/form.css" />
   </head>
-  <script language="javascript" src="_javascript/funcoes.js"></script>
+  <script language="javascript" src="assets/dist/js/funcoes.js"></script>
   <script>
     function calc_total() {
       var qtd = parseInt(document.getElementById("cQnt").value);
@@ -22,38 +22,38 @@
           <h2>A tecnologia que não deu certo</h2>
         </hgroup>
 
-        <img id="oculos" src="_imagens/glass-oculos-preto-peq.png" />
+        <img id="oculos" src="assets/src/images/glass-oculos-preto-peq.png" />
 
         <nav id="menu">
           <h1>Menu Principal</h1>
           <ul>
             <li
-              onmouseover="mudarFoto('_imagens/home.png')"
-              onmouseout="mudarFoto('_imagens/contato.png')"
+              onmouseover="mudarFoto('assets/src/images/home.png')"
+              onmouseout="mudarFoto('assets/src/images/contato.png')"
             >
-              <a href="index.att.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/especificacoes.png')"
-              onmouseout="mudarFoto('_imagens/contato.png')"
+              onmouseover="mudarFoto('assets/src/images/especificacoes.png')"
+              onmouseout="mudarFoto('assets/src/images/contato.png')"
             >
               <a href="specs.html"> Especificações</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/fotos.png')"
-              onmouseout="mudarFoto('_imagens/contato.png')"
+              onmouseover="mudarFoto('assets/src/images/fotos.png')"
+              onmouseout="mudarFoto('assets/src/images/contato.png')"
             >
               <a href="fotos.html">Fotos</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/multimidia.png')"
-              onmouseout="mudarFoto('_imagens/contato.png')"
+              onmouseover="mudarFoto('assets/src/images/multimidia.png')"
+              onmouseout="mudarFoto('assets/src/images/contato.png')"
             >
               <a href="multimidia.html">Multimídia</a>
             </li>
             <li
-              onmouseover="mudarFoto('_imagens/contato.png')"
-              onmouseout="mudarFoto('_imagens/contato.png')"
+              onmouseover="mudarFoto('assets/src/images/contato.png')"
+              onmouseout="mudarFoto('assets/src/images/contato.png')"
             >
               <a href="fale-conosco.html">Fale conosco</a>
             </li>
@@ -68,7 +68,7 @@
                 <h3>Formulário de Contato</h3>
                 <h1>Entre em contato comigo através desse formulário</h1>
                 <h2>Por Emmanoel Wallace</h2>
-                <h3 class="direita">Atualizado em 17/01/2022</h3>
+                <h3 class="direita">Atualizado em 22/01/2022</h3>
               </hgroup>
             </header>
             <form
@@ -238,9 +238,10 @@
                     name="tQnt"
                     id="cQnt"
                     size="20"
+                    maxlength="20"
                     min="0"
                     max="10"
-                    placeholder="Nem existe ainda"
+                    placeholder="Why?"
                   />
                 </p>
                 <p>
@@ -254,7 +255,7 @@
                   />
                 </p>
               </fieldset>
-              <input type="image" src="_imagens/botao-enviar.png" />
+              <input type="image" src="assets/src/images/botao-enviar.png" />
             </form>
           </div>
         </article>
