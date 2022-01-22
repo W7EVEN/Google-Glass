@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>O que aconteceu com o Google Glass?</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="_css/media.css" />
+  </head>
+  <script language="javascript" src="_javascript/funcoes.js"></script>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <hgroup>
+          <h1>Google Glass</h1>
+          <h2>A tecnologia que não deu certo</h2>
+        </hgroup>
+
+        <img id="oculos" src="_imagens/glass-oculos-preto-peq.png" />
+
+        <nav id="menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li
+              onmouseover="mudarFoto('_imagens/home.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="index.att.html">Home</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/especificacoes.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="specs.html"> Especificações</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/fotos.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="fotos.html">Fotos</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/multimidia.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="multimidia.html">Multimídia</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/contato.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="fale-conosco.html">Fale conosco</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="media-base">
+        <article id="noticia-principal">
+          <header id="cabecalho-artigo">
+            <hgroup>
+              <h3>Glass > Multimídia</h3>
+              <h1>Sons e Vídeos:</h1>
+              <h2>Por Emmanoel Wallace</h2>
+              <h3 class="direita">Atualizado em 16/01/2022</h3>
+            </hgroup>
+          </header>
+
+          <div id="tv-radio">
+            <audio id="musica" controls="controls">
+              <source
+                src="_media/2009-lovers-carvings-bibio.mp3"
+                type="audio/mpeg"
+              />
+              Desculpe, mas não foi possível carregar o áudio, talvez seu
+              navegador não seja compatível
+            </audio>
+            <video
+              id="filme"
+              controls="controls"
+              poster="_imagens/video-mini03.jpg"
+            >
+              <source src="_media/getting-started.mp4" type="video/mp4" />
+              Desculpe, mas não foi possível carregar o vídeo, talvez seu
+              navegador não seja compatível
+            </video>
+          </div>
+        </article>
+      </section>
+      <footer id="rodape">
+        <h5>Copyright &copy; 2022 - by Emmanoel Wallace</h5>
+        <br />
+
+        <nav id="instagram">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/emmanoelwallace/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

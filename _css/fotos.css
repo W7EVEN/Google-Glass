@@ -1,0 +1,145 @@
+/*@charset "UTF-8"*/
+
+/*Ajustando a largura da página*/
+section#specs-base {
+  display: block;
+  width: 940px;
+  margin: auto;
+}
+
+/*Corrigindo a posição da imagem da foto*/
+img#fotos {
+  position: absolute;
+  top: 40px;
+  left: 910px;
+}
+
+/*Carregando o modelo e área da lista*/
+ul#album {
+  width: 930px;
+  margin: 0 auto;
+  padding: 70px;
+  padding-left: 45px;
+  overflow: hidden;
+  list-style: none;
+}
+
+/*Organizando espaçamento e posição da lista*/
+ul#album li {
+  float: left;
+  width: 270px;
+  height: 270px;
+  margin: 10px;
+  border: 4px solid white;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.4s ease-in;
+}
+
+/*Configurando as legendas das fotos*/
+ul#album li span {
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2px;
+  border-radius: 3px;
+  font-size: 11pt;
+  line-height: 520px;
+  -webkit-transition: all 0.4s ease-in;
+}
+
+/*Fazendo a animação de hover do texto*/
+ul#album li:hover span {
+  opacity: 1;
+}
+
+/*Fazendo a animação de expansão do álbum*/
+ul#album li:hover {
+  -webkit-transform: scale(1.5);
+}
+
+/*Ajustando a foto número 1*/
+ul#album li#foto-01 {
+  background: url(../_imagens/galeria-01.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 450px 450px;
+  background-color: #ffffff;
+}
+
+/*Fazendo a animação de zoom out da foto 1*/
+ul#album li#foto-01:hover {
+  background-position: 0px 0px;
+  background-size: 270px 270px;
+}
+
+/*Ajustando a foto número 2*/
+ul#album li#foto-02 {
+  background: url(../_imagens/galeria-02.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 450px 450px;
+  background-color: #ffffff;
+}
+
+/*Fazendo a animação de zoom out da foto 2*/
+ul#album li#foto-02:hover {
+  background-position: 0px 0px;
+  background-size: 270px 270px;
+}
+
+/*Ajustando a foto número 3*/
+ul#album li#foto-03 {
+  background: url(../_imagens/galeria-03.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 450px 450px;
+  background-color: #ffffff;
+}
+
+/*Fazendo a animação de zoom out da foto 3*/
+ul#album li#foto-03:hover {
+  background-position: 0px 0px;
+  background-size: 270px 270px;
+}
+
+/*Ajustando a foto número 4*/
+ul#album li#foto-04 {
+  background: url(../_imagens/galeria-04.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 450px 450px;
+  background-color: #ffffff;
+}
+
+/*Fazendo a animação de zoom out da foto 4*/
+ul#album li#foto-04:hover {
+  background-position: 0px 0px;
+  background-size: 270px 270px;
+}
+
+/*Ajustando a foto número 5*/
+ul#album li#foto-05 {
+  background: url(../_imagens/galeria-05.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 450px 450px;
+  background-color: #ffffff;
+}
+
+/*Fazendo a animação de zoom out da foto 5*/
+ul#album li#foto-05:hover {
+  background-position: 0px 0px;
+  background-size: 270px 270px;
+}
+
+/*Ajustando a foto número 6*/
+ul#album li#foto-06 {
+  background: url(../_imagens/galeria-06.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 450px 450px;
+  background-color: #ffffff;
+}
+
+/*Fazendo a animação de zoom out da foto 6*/
+ul#album li#foto-06:hover {
+  background-position: 0px 0px;
+  background-size: 270px 270px;
+}

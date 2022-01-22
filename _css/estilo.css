@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Luxurious+Roman&family=Moon+Dance&family=Orelega+One&family=PT+Sans+Narrow&family=Shadows+Into+Light&display=swap");
+@font-face {
+  font-family: "BubbleGum";
+  src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+/* Plano de fundo */
+body {
+  background-color: #909090;
+  color: rgba(0, 0, 0, 1);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/*Ajustando o cabeçalho*/
+header#cabecalho h1 {
+  top: 299px;
+}
+
+/* Parágrafo */
+p {
+  text-align: justify;
+  text-indent: 25px;
+  font-size: 16pt;
+}
+
+/*Link*/
+a {
+  color: rgb(11, 45, 238);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+/*Hover do link*/
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Textos em h*/
+h1 {
+  font-size: 26pt;
+}
+
+h2 {
+  font-size: 26pt;
+}
+
+h5 {
+  text-align: center;
+  font-size: 14pt;
+}
+
+/*Configuração geral da barra de navegação*/
+nav#menu {
+  display: block;
+}
+
+/*Barra de navegação da lista não enumerada*/
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -18px;
+  left: 33%;
+}
+
+/*Ordenando os itens da lista*/
+nav#menu li {
+  display: inline-block;
+  background-color: #dddddd;
+  padding: 10px;
+  margin: 8px;
+  transition: background-color 0.3s;
+}
+
+/*Escondendo a aba de "Menu Principal"*/
+nav#menu h1 {
+  display: none;
+}
+
+/*Transição ao passar o mouse no link*/
+nav#menu li:hover {
+  background-color: #909090;
+}
+
+/*Trocando a cor dos botões do link*/
+nav#menu a {
+  color: black;
+  text-decoration: none;
+}
+
+/*Trocar a cor do texto ao passar o mouse*/
+nav#menu a:hover {
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+/*Essa é a parte de configuração da borda da imagem*/
+figure.foto-legendada {
+  position: relative;
+  border: 2px solid white;
+  box-shadow: 1px 1px 4px black;
+}
+
+/*Essa é a parte de ajuste do tamanho da borda*/
+figure.foto-legendada img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Essa é a configuração da legenda e da transição*/
+figure.foto-legendada figcaption {
+  font-size: 14pt;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  transition: opacity 0.4s;
+}
+
+/*E isso é a opacidade da legenda*/
+figure.foto-legendada:hover figcaption {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*Organizando a interface do site*/
+div#interface {
+  width: 990px;
+  background-color: #ffffff;
+
+  margin: -20px auto 5px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px 15px 30px 15px;
+}
+
+/*Organizando o cabeçalho do site*/
+header#cabecalho {
+  border-bottom: 1px #606060 solid;
+  height: 160px;
+}
+
+/*Organizando o título do cabeçalho*/
+header#cabecalho h1 {
+  position: relative;
+  top: 10px;
+  left: 80px;
+  font-family: "Moon Dance", cursive;
+  font-size: 49pt;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.6);
+}
+
+/*Organizando o h2 do cabeçalho*/
+header#cabecalho h2 {
+  position: relative;
+  top: -45px;
+  left: 120px;
+  font-family: "Moon Dance", cursive;
+  font-size: 27pt;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.6);
+}
+
+/*Organizando a posição dos óculos*/
+img#oculos {
+  position: relative;
+  top: -200px;
+  left: 700px;
+}
+
+/*Transformando os contatos em um bloco*/
+nav#instagram {
+  display: block;
+}
+
+/*Reorganizando a posição e a fonte da lista*/
+nav#instagram ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  top: -50px;
+  left: 330px;
+}
+
+/*Ajustando o fundo dos itens e trocando o modo do cursor*/
+nav#instagram li {
+  display: inline-block;
+  background-color: #767676;
+  cursor: pointer;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/*Removendo a underline e trocando a cor do texto*/
+nav#instagram a {
+  color: rgb(234, 238, 11);
+  text-decoration: none;
+}
+
+/*Transição ao passar o mouse na caixa*/
+nav#instagram li:hover {
+  background-color: rgb(234, 238, 11);
+}
+
+/*Transição ao passar o mouse no link de contato*/
+nav#instagram a:hover {
+  color: #767676;
+  transition: 0.3s;
+}
+
+/*Ajustando a seção principal*/
+section#base {
+  display: block;
+  width: 520px;
+  float: left;
+  border-right: 1px solid #606060;
+  padding-right: 22px;
+  padding-bottom: 10px;
+}
+
+/*Colocando um fundo no h1 da seção principal*/
+section#base h2 {
+  background-color: #909090;
+  border-radius: 2px;
+  padding: 5px 0px 2px 10px;
+  margin: 10px -17px 19px -10px;
+}
+
+/*Ajustando cabeçalho do artigo*/
+header#cabecalho-artigo h2 {
+  font-family: "Luxurious Roman", cursive;
+  font-size: 15pt;
+  background-color: #ffffff;
+}
+
+/*Ajustando o texto h3 do artigo*/
+header#cabecalho-artigo h3 {
+  font-size: 12pt;
+}
+
+.direita {
+  text-align: right;
+}
+
+/*Borda da tabela*/
+table#specs {
+  border: 2px solid #606060;
+  border-spacing: 2px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+/*Borda dos dados da tabela*/
+table#specs td {
+  border: 1px solid #606060;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 3px;
+  text-align: center;
+  vertical-align: middle;
+  transition: 0.4s;
+}
+
+/*Ajustando o lado esquerdo da tabela*/
+table#specs td.esquerda {
+  background-color: rgba(255, 241, 47, 1);
+  color: rgb(85, 85, 85);
+  font-family: "Orelega One", cursive;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.6);
+}
+
+/*Ajustando o lado direito da tabela*/
+table#specs td.direita {
+  background-color: rgba(255, 241, 47, 1);
+  color: rgb(85, 85, 85);
+  font-family: "Orelega One", cursive;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.6);
+  transition: 0.4s;
+}
+
+/*Animação de hover da tabela*/
+table#specs td:hover {
+  background-color: #ce8619;
+  color: rgba(255, 241, 47, 1);
+}
+
+/*Título da tabela*/
+table#specs caption {
+  font-family: "Orelega One", cursive;
+  font-size: 16pt;
+  color: rgb(95, 95, 95);
+  text-align: left;
+}
+
+/*Diminuindo o nome Mar/2013*/
+table#specs caption span {
+  display: block;
+  float: right;
+  font-size: 9pt;
+  margin-top: 18px;
+}
+
+/*Ajustando a posição do vídeo "How it feels"*/
+video#how-it-feels {
+  display: block;
+  position: relative;
+  left: 60px;
+  top: 0px;
+  width: 400px;
+  padding: 10px;
+}
+
+/*Ajustando o artigo principal*/
+article#noticia-principal h1 {
+  font-family: "Shadows Into Light", cursive;
+  color: #838383;
+  border-radius: 2px;
+  padding: 5px 0px 2px 10px;
+  margin: 10px -17px 10px -10px;
+}
+
+article#noticia-principal h2 {
+  font-size: 18pt;
+  color: black;
+}
+
+/*Ajustando a posição da barra lateral*/
+aside#direita {
+  display: block;
+  width: 400px;
+  float: right;
+  background-color: #c4c4c4;
+  padding: 10px 15px 15px 27px;
+  margin-top: 20px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/*Layout da notícia secundária*/
+aside#direita h1 {
+  font-size: 26pt;
+  font-family: "Shadows Into Light", cursive;
+  color: #838383;
+  border-radius: 2px;
+  padding: 5px 0px 2px 10px;
+  margin: 22px -5px 19px -19px;
+}
+
+/*Ajustando texto da notícia secundária*/
+aside#direita h2 {
+  font-size: 18pt;
+  background-color: #797979;
+  border-radius: 2px;
+  padding: 5px 0px 2px 10px;
+  margin: 10px -5px 19px -19px;
+}
+
+/*Posicionando o vídeo "One Day"*/
+video#oneday {
+  display: block;
+  position: relative;
+  left: -6px;
+  top: 0px;
+  width: 400px;
+}
+
+/*Criando uma borda no rodapé e limpando os dois blocos*/
+footer#rodape {
+  clear: both;
+  border-top: 1px solid #606060;
+}

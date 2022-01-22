@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/*Tamanho base do formulário*/
+form {
+  width: 750px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+/*Tamanho dos textos*/
+input,
+textarea {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 14pt;
+}
+
+/*Posição e tamanho da text area*/
+textarea {
+  position: relative;
+  top: 35px;
+}
+
+/*Hover dos textos*/
+input:hover,
+textarea:hover {
+  transition: 0.4s;
+  background-color: #b5b5b5;
+}
+
+/*Configurações da legenda*/
+legend {
+  color: #7e7e7e;
+  font-weight: bold;
+  font-size: 17pt;
+  font-family: "Moon Dance", cursive;
+}
+
+/*Configurações da borda*/
+fieldset {
+  border-color: #b5b5b5;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 35px 5px 35px 5px;
+}
+
+/*Configurações da borda com id sexo*/
+fieldset#sexo {
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+}
+
+/*Background do id usuario*/
+fieldset#usuario {
+  background: url(../_imagens/icone-contato.png) no-repeat 95% 95%;
+}
+
+/*Background do id endereço*/
+fieldset#endereco {
+  background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%;
+}
+
+/*Background do id mensagem*/
+fieldset#mensagem {
+  background: url(../_imagens/icone-mensagem.png) no-repeat 95% 95%;
+}
+
+/*Background do id compra*/
+fieldset#compra {
+  background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
+}

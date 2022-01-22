@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>O que aconteceu com o Google Glass?</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="_css/specs.css" />
+  </head>
+  <script language="javascript" src="_javascript/funcoes.js"></script>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <hgroup>
+          <h1>Google Glass</h1>
+          <h2>A tecnologia que não deu certo</h2>
+        </hgroup>
+
+        <img id="oculos" src="_imagens/glass-oculos-preto-peq.png" />
+
+        <nav id="menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li
+              onmouseover="mudarFoto('_imagens/home.png')"
+              onmouseout="mudarFoto('_imagens/especificacoes.png')"
+            >
+              <a href="index.att.html">Home</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/especificacoes.png')"
+              onmouseout="mudarFoto('_imagens/especificacoes.png')"
+            >
+              <a href="specs.html"> Especificações</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/fotos.png')"
+              onmouseout="mudarFoto('_imagens/especificacoes.png')"
+            >
+              <a href="fotos.html">Fotos</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/multimidia.png')"
+              onmouseout="mudarFoto('_imagens/especificacoes.png')"
+            >
+              <a href="multimidia.html">Multimídia</a>
+            </li>
+            <li
+              onmouseover="mudarFoto('_imagens/contato.png')"
+              onmouseout="mudarFoto('_imagens/especificacoes.png')"
+            >
+              <a href="fale-conosco.html">Fale conosco</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="specs-base">
+        <article id="noticia-principal">
+          <header id="cabecalho-artigo">
+            <hgroup>
+              <h3>Glass > Especificações</h3>
+              <h1>Raio-X no Google Glass:</h1>
+              <h2>Por Emmanoel Wallace</h2>
+              <h3 class="direita">Atualizado em 18/01/2022</h3>
+            </hgroup>
+          </header>
+
+          <p class="borda">
+            Clique em qualquer área destacada da imagem para ter mais
+            informações sobre os recursos previstos do Google Glass (Antes do
+            projeto falir completamente). Qualquer ponto vermelho vai te levar a
+            um lugar cheio de informações.
+          </p>
+
+          <section id="specs-glass">
+            <img
+              src="_imagens/glass-esquema-marcado.jpg"
+              usemap="#mapa-detalhes"
+              alt="Esquema interativo do Google Glass"
+            />
+            <map name="mapa-detalhes">
+              <area
+                shape="rect"
+                coords="180,216,269,243"
+                href="google-glass.html#tela"
+                target="janela"
+              />
+              <area
+                shape="circle"
+                coords="157,243,12"
+                href="google-glass.html#camera"
+                target="janela"
+              />
+              <area
+                shape="circle"
+                coords="76,52,12"
+                href="google-glass.html#sensores"
+                target="janela"
+              />
+              <area
+                shape="poly"
+                coords="27,143,82,214,83,251,26,167"
+                href="google-glass.html#bateria"
+                target="janela"
+              />
+            </map>
+            <iframe
+              src="google-glass.html"
+              name="janela"
+              id="specs-iframe"
+            ></iframe>
+          </section>
+        </article>
+      </section>
+
+      <footer id="rodape">
+        <h5>Copyright &copy; 2022 - by Emmanoel Wallace</h5>
+        <br />
+
+        <nav id="instagram">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/emmanoelwallace/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+/*@charset "UTF-8"*/
+
+/*Ajustando a largura da página*/
+section#specs-base {
+  display: block;
+  width: 940px;
+  margin: auto;
+}
+
+/*Ajustando o tamanho do iframe*/
+iframe#specs-iframe {
+  width: 430px;
+  height: 300px;
+  border: none;
+  overflow: hidden;
+}
+
+/*Tentativa de esconder a barra de rolagem do iframe*/
+iframe#specs-iframe::-webkit-scrollbar {
+  display: none;
+}
+
+/*Criando uma borda para separar melhor a aba*/
+p.borda {
+  border-top: 1px #606060 solid;
+  margin-left: -23px;
+  margin-right: -23px;
+}
+
+/*Corrigindo a posição da imagem do topo*/
+img#specs {
+  position: absolute;
+  top: 50px;
+  left: 850px;
+}
