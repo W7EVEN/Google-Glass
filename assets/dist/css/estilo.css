@@ -102,7 +102,7 @@ nav#menu a:hover {
 figure.foto-legendada {
   position: relative;
   border: 2px solid white;
-  box-shadow: 1px 1px 4px black;
+  box-shadow: 2px 1px 6px black;
 }
 
 /*Essa é a parte de ajuste do tamanho da borda*/
@@ -281,7 +281,7 @@ table#specs td.esquerda {
   color: rgb(85, 85, 85);
   font-family: "Orelega One", cursive;
   font-size: 16px;
-  text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 /*Ajustando o lado direito da tabela*/
@@ -290,13 +290,13 @@ table#specs td.direita {
   color: rgb(85, 85, 85);
   font-family: "Orelega One", cursive;
   font-size: 16px;
-  text-shadow: 1px 1px 1px rgba (0, 0, 0, 0.6);
-  transition: 0.4s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
 }
 
 /*Animação de hover da tabela*/
 table#specs td:hover {
-  background-color: #ce8619;
+  background-color: rgb(136, 131, 91);
   color: rgba(255, 241, 47, 1);
 }
 
