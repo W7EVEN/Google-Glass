@@ -1,194 +1,216 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
-    <meta charset="utf-8" />
-    <title>O que aconteceu com o Google Glass?</title>
-    <link rel="stylesheet" type="text/css" href="assets/dist/css/estilo.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Glass</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/estilo.css"
+    />
   </head>
-  <script language="javascript" src="assets/dist/js/funcoes.js"></script>
   <body>
-    <div id="interface">
-      <header id="cabecalho">
-        <hgroup>
-          <h1>Google Glass</h1>
-          <h2>A tecnologia que não deu certo</h2>
+    <div class="geral">
+      <!-- The Google Glass Name -->
+      <header class="header">
+        <div class="logo">
+          <div class="logo-box">
+            <h1 class="logo-name">Google Glass</h1>
+          </div>
+        </div>
+
+        <!-- Navigation Bar -->
+
+        <div class="navegacao">
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./index.html">Home</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./specs.html">Especificações</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./fotos.html">Fotos</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./multimidia.html"> Multimídia</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./contato.html"> Fale conosco </a>
+          </div>
+          <!-- Navigation Block End -->
+        </div>
+      </header>
+      <!-- Navigation Bar End -->
+
+      <article class="artigo-principal">
+        <hgroup class="grupo">
+          <div class="breadcrumps"><h3>Tecnologia > Inovações</h3></div>
+          <div class="subtitulo"><h2>Saiba tudo sobre o Google Glass</h2></div>
+          <div class="autoria"><h3>Por Emmanoel Wallace</h3></div>
+          <div class="atualizacao">
+            <h3 class="atualizacao">Atualizado dia 14/02/2022</h3>
+          </div>
         </hgroup>
 
-        <img id="oculos" src="assets/src/images/glass-oculos-preto-peq.png" />
+        <h2>O que era para ser:</h2>
 
-        <nav id="menu">
-          <h1>Menu Principal</h1>
-          <ul>
-            <li
-              onmouseover="mudarFoto('assets/src/images/home.png')"
-              onmouseout="mudarFoto('assets/src/images/glass-oculos-preto-peq.png')"
-            >
-              <a href="index.html">Home</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/especificacoes.png')"
-              onmouseout="mudarFoto('assets/src/images/glass-oculos-preto-peq.png')"
-            >
-              <a href="specs.html"> Especificações</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/fotos.png')"
-              onmouseout="mudarFoto('assets/src/images/glass-oculos-preto-peq.png')"
-            >
-              <a href="fotos.html">Fotos</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/multimidia.png')"
-              onmouseout="mudarFoto('assets/src/images/glass-oculos-preto-peq.png')"
-            >
-              <a href="multimidia.html">Multimídia</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/contato.png')"
-              onmouseout="mudarFoto('assets/src/images/glass-oculos-preto-peq.png')"
-            >
-              <a href="fale-conosco.html">Fale conosco</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-      <section id="base">
-        <article id="noticia-principal">
-          <header id="cabecalho-artigo">
-            <hgroup>
-              <h3>Tecnologia > Inovações</h3>
-              <h1>Saiba tudo sobre o Google Glass:</h1>
-              <h2>Por Emmanoel Wallace</h2>
-              <h3 class="direita">Atualizado em 22/01/2022</h3>
-            </hgroup>
-          </header>
-
-          <h2>O que era para ser:</h2>
-          <p>
-            O <b>Google Glass</b> era um acessório em forma de óculos que
-            possibilitaria a interação dos usuários com diversos conteúdos em
-            realidade aumentada. Também era chamado de
-            <a
-              class="glass"
-              href="https://pt.wikipedia.org/wiki/Project_Glass"
-              target="_blank"
-              ><i>Project Glass</i></a
-            >
-            e o eletrônico seria capaz de tirar fotos a partir de comandos de
-            voz, enviar mensagens instantâneas e realizar
-            vídeo&shy;con&shy;fe&shy;rên&shy;cias. Seu lançamento seria em 2014,
-            e por uma absurda bagatela de 1500 dólares. Atualmente o
-            <b>Google Glass</b> encontra-se <b>COMPLETAMENTE MORTO</b>, apesar
-            da companhia de buscas já ter registrado patentes anti-furto e
-            desbloqueio de tela
-          </p>
-
+        <p>
+          O <b>Google Glass</b> era um acessório em forma de óculos que
+          possibilitaria a interação dos usuários com diversos conteúdos em
+          realidade aumentada. Também era chamado de
+          <a
+            class="glass"
+            href="https://pt.wikipedia.org/wiki/Project_Glass"
+            target="_blank"
+            ><i>Project Glass</i></a
+          >
+          e o eletrônico seria capaz de tirar fotos a partir de comandos de voz,
+          enviar mensagens instantâneas e realizar
+          vídeo&shy;con&shy;fe&shy;rên&shy;cias. Seu lançamento seria em 2014, e
+          por uma absurda bagatela de 1500 dólares. Atualmente o
+          <b>Google Glass</b> encontra-se <b>COMPLETAMENTE MORTO</b>, apesar da
+          companhia de buscas já ter registrado patentes anti-furto e
+          desbloqueio de tela
+        </p>
+        <div class="foto">
           <figure class="foto-legendada">
-            <img src="assets/src/images/glass-quadro-homem-mulher.jpg" />
-            <figcaption>
+            <img
+              class="foto-glass"
+              src="./assets/src/images/glass-quadro-homem-mulher.jpg"
+              alt="Imagem de um Homem e uma Mulher fingindo gostar do Glass"
+            />
+            <figcaption class="foto-legenda">
               <h3>Google Glass</h3>
               <p>Um projeto que faliu completamente</p>
             </figcaption>
           </figure>
+        </div>
 
-          <h2>Data de lançamento:</h2>
+        <h2>Data de lançamento:</h2>
+        <p>
+          KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKK<wbr />KKKKK<wbr />KKKKKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKKKKKK<wbr />KKKKK<wbr />KKKK<wbr />KKKKK<wbr />KKKKKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />,
+          QUE LANÇAMENTO?
+        </p>
+        <p>
+          Até hoje não teve lançamento nenhum. Era para estar disponível para
+          testes nas lojas em 2013, e lançado em 2014.
+        </p>
+
+        <h2>Especificações Técnicas:</h2>
+        <table class="specs">
+          <caption>
+            Ta&shy;be&shy;la Téc&shy;ni&shy;ca do Goo&shy;gle Glass<span
+              >Mar&shy;ço/2013</span
+            >
+          </caption>
+
+          <tr>
+            <td class="esquerda">Te&shy;la</td>
+            <td class="direita">
+              Re&shy;so&shy;lu&shy;ção equi&shy;va&shy;len&shy;te a te&shy;la de
+              25"
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="esquerda">Câ&shy;me&shy;ra</td>
+            <td class="direita">5MP pa&shy;ra fo&shy;tos</td>
+          </tr>
+          <tr>
+            <td class="direita">720p pa&shy;ra ví&shy;deos></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="esquerda">
+              Co&shy;nec&shy;ti&shy;vi&shy;da&shy;de
+            </td>
+            <td class="direita">Wi-<wbr />Fi</td>
+          </tr>
+          <tr>
+            <td class="direita">Blue&shy;tooth</td>
+          </tr>
+          <tr>
+            <td class="esquerda">Ar&shy;ma&shy;ze&shy;na&shy;men&shy;to</td>
+            <td class="direita">12GB</td>
+          </tr>
+        </table>
+
+        <article>
+          <h2>Como funciona:</h2>
           <p>
-            KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKK<wbr />KKKKK<wbr />KKKKKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKKKKKK<wbr />KKKKK<wbr />KKKK<wbr />KKKKK<wbr />KKKKKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />KKKKK<wbr />,
-            QUE LANÇAMENTO?
+            <b>Não funciona, simplesmente</b>
+            <i>(Até porque nem lançou)</i> De acordo com fontes próximas do
+            Google, os óculos contariam com uma pequena tela de <b>LCD</b> ou
+            <b>AMOLED</b> na parte superior e em frente aos olhos do usuário.
+            Com o uso de uma câmera e GPS, você poderia se situar
+            <i>(Mais privacidade que isso não existe)</i>, assim como selecionar
+            opções com o movimento da cabeça
           </p>
+
+          <h2>O que você pode fazer com o Google Glasses:</h2>
           <p>
-            Até hoje não teve lançamento nenhum. Era para estar disponível para
-            testes nas lojas em 2013, e lançado em 2014.
+            <b>Absolutamente nada, os <i>Google Glasses</i> não existem.</b> O
+            vídeo de divulgação do Google mostrou que você poderia se
+            transformar em uma espécie de “super-<wbr />humano”, já que o
+            aparelho pode indicaria a quantos metros você está de seu destino
+            <i>(Eu não usaria isso)</i>, se o metrô está aberto ou fechado,
+            mostrar o clima, agenda e até mesmo permitir que você marque
+            encontros apenas com comandos de voz.
           </p>
+        </article>
 
-          <h2>Especificações Técnicas:</h2>
-          <table id="specs">
-            <caption>
-              Tabela Técnica do Google Glass<span>Março/2013</span>
-            </caption>
-
-            <tr>
-              <td class="esquerda">Tela</td>
-              <td class="direita">Resolução equivalente a tela de 25"</td>
-            </tr>
-            <tr>
-              <td rowspan="2" class="esquerda">Câmera</td>
-              <td class="direita">5MP para fotos</td>
-            </tr>
-            <tr>
-              <td class="direita">720p para vídeos></td>
-            </tr>
-            <tr>
-              <td rowspan="2" class="esquerda">Conectividade</td>
-              <td class="direita">Wi-Fi</td>
-            </tr>
-            <tr>
-              <td class="direita">Bluetooth</td>
-            </tr>
-            <tr>
-              <td class="esquerda">Armazenamento</td>
-              <td class="direita">12GB</td>
-            </tr>
-          </table>
-
-          <article>
-            <h2>Como funciona:</h2>
-            <p>
-              <b>Não funciona, simplesmente</b>
-              <i>(Até porque nem lançou)</i> De acordo com fontes próximas do
-              Google, os óculos contariam com uma pequena tela de <b>LCD</b> ou
-              <b>AMOLED</b> na parte superior e em frente aos olhos do usuário.
-              Com o uso de uma câmera e GPS, você poderia se situar
-              <i>(Mais privacidade que isso não existe)</i>, assim como
-              selecionar opções com o movimento da cabeça
-            </p>
-
-            <h2>O que você pode fazer com o Google Glasses:</h2>
-            <p>
-              <b>Absolutamente nada, os <i>Google Glasses</i> não existem.</b> O
-              vídeo de divulgação do Google mostrou que você poderia se
-              transformar em uma espécie de “super-<wbr />humano”, já que o
-              aparelho pode indicaria a quantos metros você está de seu destino
-              <i>(Eu não usaria isso)</i>, se o metrô está aberto ou fechado,
-              mostrar o clima, agenda e até mesmo permitir que você marque
-              encontros apenas com comandos de voz.
-            </p>
-          </article>
-
+        <div class="video-01">
           <video
-            id="how-it-feels"
+            class="video"
             controls="controls"
             type="video/mp4"
             poster="assets/src/images/video-mini02.jpg"
           >
-            <source src="assets/src/video/how-it-feels.mp4" />
+            <source src="assets/src/videos/how-it-feels.mp4" />
           </video>
-        </article>
-      </section>
+        </div>
+      </article>
+      <aside class="barra barra-direita">
+        <h2>Outras Notícias</h2>
+        <h3>Vídeo mais recente:</h3>
 
-      <aside id="direita">
-        <h1>Outras Notícias</h1>
-        <h2>Vídeo mais recente:</h2>
-
-        <video
-          id="oneday"
-          controls="controls"
-          type="video/mp4"
-          poster="assets/src/images/video-mini01.jpg"
-        >
-          <source src="assets/src/video/one-day.mp4" />
-        </video>
+        <div class="video-02">
+          <video
+            class="video"
+            controls="controls"
+            type="video/mp4"
+            poster="assets/src/images/video-mini01.jpg"
+          >
+            <source src="assets/src/videos/one-day.mp4" />
+          </video>
+        </div>
         <p>
-          Nota: não sei se esse é o vídeo mais recente, o Guanabara não colocou
-          nada sobre isso nas aulas, então decidi colocar sozinho, para não
-          ficar incompleto
+          Nota: não sei se esse é o vídeo mais recente, mas nos meus arquivos de
+          vídeo esse é o mais recente
         </p>
 
         <h2>Novidades do Glass:</h2>
         <p>
           A última novidade sobre ele dizia: "O projeto do
-          <i>Google Glass</i> foi descontinuado."" <br /><br />
+          <i>Google Glass</i> foi descontinuado." <br /><br />
 
           Algumas informações extras sobre o morto projeto: <br />
           A tela montada a frente do olho teria 640 x 360 pixels de resolução
@@ -197,25 +219,19 @@
         </p>
         <br /><br />
       </aside>
+      <footer class="rodape">
+        <div><h4>Copyright &copy; 2022 - by Emmanoel Wallace</h4></div>
 
-      <footer id="rodape">
-        <h5>Copyright &copy; 2022 - by Emmanoel Wallace</h5>
-        <br />
-
-        <nav id="instagram">
-          <ul>
-            <li>
-              <a
-                href="https://www.instagram.com/emmanoelwallace/"
-                target="_blank"
-                >Instagram</a
-              >
-            </li>
-            <li>
-              <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="contatos">
+          <div class="contato-instagram">
+            <a href="https://www.instagram.com/emmanoelwallace/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div class="contato-whatsapp">
+            <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
