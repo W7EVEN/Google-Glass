@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 .formulario {
-  align-items: center;
   display: flex;
-  flex-flow: column wrap;
-  flex-grow: 1;
   justify-content: center;
-  margin: 30px auto;
+  align-items: center;
+  flex-flow: column wrap;
   width: 100%;
+  flex-grow: 1;
+  margin: 30px auto;
 }
 
 .formulario .form {
@@ -17,30 +17,30 @@
 }
 
 .formulario .sexo {
-  margin: 5px 2px;
   width: 20%;
+  margin: 5px 2px;
 }
 
 .formulario .form .legenda-formulario {
-  color: #37a0d1;
-  font-family: "Shadows Into Light", cursive;
   font-size: 30px;
-  font-style: italic;
-  font-weight: 500;
   padding: 0 10px;
+  color: #37a0d1;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .formulario .form input,
 textarea,
 select {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.4s;
+  margin: 15px 5px;
   background-color: #2a2d58;
   border: 1px solid #a3a3a3;
   color: #d1d1d1;
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 15px 5px;
-  transition: 0.4s;
 }
 
 .formulario .form label {
@@ -48,9 +48,9 @@ select {
 }
 
 .formulario .mensagem .mensagem-final {
-  align-items: center;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .formulario .mensagem .mensagem-final label {
@@ -62,31 +62,31 @@ select {
 }
 
 .formulario .usuario {
-  background-size: 300px;
   background: url(../../src/images/icone-contato.png) no-repeat 99% 95%;
+  background-size: 300px;
 }
 
 .formulario .endereco {
-  background-size: 250px;
   background: url(../../src/images/icone-endereco.png) no-repeat 99% 95%;
+  background-size: 250px;
 }
 
 .formulario .mensagem {
-  background-size: 250px;
   background: url(../../src/images/icone-mensagem.png) no-repeat 99% 95%;
+  background-size: 250px;
 }
 
 .formulario .compra {
-  background-size: 250px;
   background: url(../../src/images/icone-pagamento.png) no-repeat 99% 95%;
+  background-size: 250px;
 }
 
 .enviar {
-  align-items: center;
   display: flex;
-  flex-flow: column wrap;
-  flex-grow: 1;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-flow: column wrap;
 }
 
 input:hover,

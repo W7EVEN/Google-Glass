@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass - Fale Conosco</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/estilo.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/contato.css"
+    />
+  </head>
+  <body>
+    <div class="geral">
+      <!-- The Google Glass Name -->
+      <header class="header">
+        <div class="logo">
+          <div class="logo-box">
+            <h1 class="logo-name">Google Glass</h1>
+          </div>
+        </div>
+
+        <!-- Navigation Bar -->
+
+        <div class="navegacao">
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./index.html">Home</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./specs.html">Especificações</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./fotos.html">Fotos</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./multimidia.html"> Multimídia</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./contato.html"> Fale conosco </a>
+          </div>
+          <!-- Navigation Block End -->
+        </div>
+      </header>
+      <!-- Navigation Bar End -->
+
+      <article class="artigo-principal">
+        <hgroup class="grupo">
+          <div class="breadcrumps"><h3>Formulário para contato</h3></div>
+          <div class="subtitulo">
+            <h2>Entre em contato comigo através desse formulário</h2>
+          </div>
+          <div class="autoria"><h3>Por Emmanoel Wallace</h3></div>
+          <div class="atualizacao">
+            <h3 class="atualizacao">Atualizado dia 14/02/2022</h3>
+          </div>
+        </hgroup>
+
+        <div class="formulario">
+          <form
+            method="post"
+            id="fContato"
+            action="mailto:emmanoelw@gmail.com"
+            oninput="calc_total();"
+          >
+            <fieldset class="form usuario">
+              <legend class="legenda-formulario">
+                Identificação do Usuário
+              </legend>
+              <p>
+                <label for="cNome">Nome:</label>
+                <input
+                  type="text"
+                  name="tNome"
+                  id="cNome"
+                  size="20"
+                  maxlength="30"
+                  placeholder="Seu Nome"
+                />
+              </p>
+              <p>
+                <label for="cEmail">E-mail:</label>
+                <input
+                  type="email"
+                  name="tEmail"
+                  id="cEmail"
+                  size="20"
+                  placeholder="Seu E-mail"
+                />
+              </p>
+              <p>
+                <label for="cSenha"> Senha: </label>
+                <input
+                  type="password"
+                  name="tSenha"
+                  id="cSenha"
+                  size="20"
+                  placeholder="No mínimo 8 dígitos"
+                />
+              </p>
+              <fieldset class="form sexo">
+                <p>Sexo:</p>
+                <input type="radio" name="tSexo" id="cMasc" />
+                <label for="cMasc" class="label-sexo"> Masculino </label><br />
+                <input type="radio" name="tSexo" id="cFem" />
+                <label for="cFem" class="label-sexo"> Feminino </label>
+              </fieldset>
+              <p>
+                <label for="cData"> Data de Nascimento: </label>
+                <input
+                  type="date"
+                  name="tData"
+                  id="cData"
+                  size="20pt"
+                  placeholder="dd/mm/aaaa"
+                />
+              </p>
+            </fieldset>
+
+            <fieldset class="form endereco">
+              <legend class="legenda-formulario">Endereço do Usuário</legend>
+              <p>
+                <label for="cEnd"> Logradouro: </label
+                ><input
+                  type="text"
+                  name="tEnd"
+                  id="cEnd"
+                  size="20"
+                  placeholder="Rua, Av., Trav."
+                />
+              </p>
+              <p>
+                <label for="cNum"> Número:</label
+                ><input
+                  type="number"
+                  name="tNum"
+                  id="cNum"
+                  min="0"
+                  max="99999"
+                  placeholder="Número da casa"
+                />
+              </p>
+              <p>
+                <label for="cEst"> Estado: </label
+                ><select name="tEst" id="cEst">
+                  <option selected>Selecione...</option>
+                  <option>Acre</option>
+                  <option>Alagoas</option>
+                  <option>Amapá</option>
+                  <option>Amazonas</option>
+                  <option>Bahia</option>
+                  <option>Ceará</option>
+                  <option>Distrito Federal</option>
+                  <option>Espírito Santo</option>
+                  <option>Goiás</option>
+                  <option>Maranhão</option>
+                  <option>Mato Grosso</option>
+                  <option>Mato Grosso do Sul</option>
+                  <option>Minas Gerais</option>
+                  <option>Pará</option>
+                  <option>Paraíba</option>
+                  <option>Paraná</option>
+                  <option>Pernambuco</option>
+                  <option>Piauí</option>
+                  <option>Rio de Janeiro</option>
+                  <option>Rio Grande do Norte</option>
+                  <option>Rio Grande do Sul</option>
+                  <option>Rondônia</option>
+                  <option>Roraima</option>
+                  <option>Santa Catarina</option>
+                  <option>São Paulo</option>
+                  <option>Sergipe</option>
+                  <option>Tocantins</option>
+                </select>
+              </p>
+              <p>
+                <label for="cCid"> Cidade:</label>
+                <input
+                  type="text"
+                  name="tCid"
+                  id="cCid"
+                  size="20"
+                  maxlength="50"
+                  placeholder="Sua Cidade"
+                />
+              </p>
+            </fieldset>
+
+            <fieldset class="form mensagem">
+              <legend class="legenda-formulario">Mensagem do Usuário</legend>
+              <p>
+                <label for="cUrg">
+                  Grau de Urgência: <br />
+                  Min.</label
+                >
+                <input type="range" name="tUrg" id="cUrg" min="0" max="10" />
+                Máx.
+              </p>
+              <div class="mensagem-final">
+                <p>
+                  <label for="cMsg"> Mensagem:</label>
+                  <textarea
+                    class="texto"
+                    name="tMsg"
+                    id="cMsg"
+                    cols="10"
+                    rows="3"
+                    placeholder="Escreva sua mensagem"
+                  ></textarea>
+                </p>
+              </div>
+            </fieldset>
+
+            <fieldset class="form compra">
+              <legend class="legenda-formulario">Quero um Google Glass</legend>
+              <p>
+                <input type="checkbox" name="tGls" id="cGls" />
+                <label for="cGls">
+                  Gostaria de adquirir um Google Glass quando disponível (Nunca
+                  estará, a menos que eles se relembrem do projeto com o
+                  Metaverso)
+                </label>
+              </p>
+              <p>
+                <label for="cCor"> Cor: </label>
+                <input type="color" name="tCor" id="cCor" />
+              </p>
+
+              <p>
+                <label for="cQnt"> Quantidade: </label>
+                <input
+                  type="number"
+                  name="tQnt"
+                  id="cQnt"
+                  size="20"
+                  maxlength="20"
+                  min="0"
+                  max="10"
+                  placeholder="Why?"
+                />
+              </p>
+              <p>
+                <label id="cTot"> Preço Total: $</label>
+                <input
+                  type="text"
+                  name="tTot"
+                  id="cTot"
+                  placeholder="1500 * Quantidade"
+                  readonly
+                />
+              </p>
+            </fieldset>
+            <div class="enviar">
+              <input type="image" src="assets/src/images/botao-enviar.png" />
+            </div>
+          </form>
+        </div>
+      </article>
+
+      <footer class="rodape">
+        <div><h4>Copyright &copy; 2022 - by Emmanoel Wallace</h4></div>
+
+        <div class="contatos">
+          <div class="contato-instagram">
+            <a href="https://www.instagram.com/emmanoelwallace/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div class="contato-whatsapp">
+            <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

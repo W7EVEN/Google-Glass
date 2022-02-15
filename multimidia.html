@@ -1,111 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>O que aconteceu com o Google Glass?</title>
-    <link rel="stylesheet" type="text/css" href="assets/dist/css/estilo.css" />
-    <link rel="stylesheet" type="text/css" href="assets/dist/css/media.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass - Multimídia</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/dist/css/estilo.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/dist/css/media.css" />
   </head>
-  <script language="javascript" src="assets/dist/js/funcoes.js"></script>
   <body>
-    <div id="interface">
-      <header id="cabecalho">
-        <hgroup>
-          <h1>Google Glass</h1>
-          <h2>A tecnologia que não deu certo</h2>
+    <div class="geral">
+      <!-- The Google Glass Name -->
+      <header class="header">
+        <div class="logo">
+          <div class="logo-box">
+            <h1 class="logo-name">Google Glass</h1>
+          </div>
+        </div>
+
+        <!-- Navigation Bar -->
+
+        <div class="navegacao">
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./index.html">Home</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./specs.html">Especificações</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./fotos.html">Fotos</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./multimidia.html"> Multimídia</a>
+          </div>
+          <!-- Navigation Block End -->
+
+          <!-- Navigation Block -->
+          <div class="bloco-navegacao">
+            <a class="navegacao-link" href="./contato.html"> Fale conosco </a>
+          </div>
+          <!-- Navigation Block End -->
+        </div>
+      </header>
+      <!-- Navigation Bar End -->
+
+      <article class="artigo-principal">
+        <hgroup class="grupo">
+          <div class="breadcrumps"><h3>Glass > Multimídia</h3></div>
+          <div class="subtitulo"><h2>Sons e Vídeos:</h2></div>
+          <div class="autoria"><h3>Por Emmanoel Wallace</h3></div>
+          <div class="atualizacao">
+            <h3 class="atualizacao">Atualizado dia 14/02/2022</h3>
+          </div>
         </hgroup>
 
-        <img id="oculos" src="assets/src/images/glass-oculos-preto-peq.png" />
-
-        <nav id="menu">
-          <h1>Menu Principal</h1>
-          <ul>
-            <li
-              onmouseover="mudarFoto('assets/src/images/home.png')"
-              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
-            >
-              <a href="index.html">Home</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/especificacoes.png')"
-              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
-            >
-              <a href="specs.html"> Especificações</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/fotos.png')"
-              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
-            >
-              <a href="fotos.html">Fotos</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/multimidia.png')"
-              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
-            >
-              <a href="multimidia.html">Multimídia</a>
-            </li>
-            <li
-              onmouseover="mudarFoto('assets/src/images/contato.png')"
-              onmouseout="mudarFoto('assets/src/images/multimidia.png')"
-            >
-              <a href="fale-conosco.html">Fale conosco</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section id="media-base">
-        <article id="noticia-principal">
-          <header id="cabecalho-artigo">
-            <hgroup>
-              <h3>Glass > Multimídia</h3>
-              <h1>Sons e Vídeos:</h1>
-              <h2>Por Emmanoel Wallace</h2>
-              <h3 class="direita">Atualizado em 22/01/2022</h3>
-            </hgroup>
-          </header>
-
-          <div id="tv-radio">
-            <audio id="musica" controls="controls">
-              <source
-                src="assets/src/video/2009-lovers-carvings-bibio.mp3"
-                type="audio/mpeg"
-              />
-              Desculpe, mas não foi possível carregar o áudio, talvez seu
-              navegador não seja compatível
-            </audio>
-            <video
-              id="filme"
-              controls="controls"
-              poster="assets/src/images/video-mini03.jpg"
-            >
-              <source
-                src="assets/src/video/getting-started.mp4"
-                type="video/mp4"
-              />
-              Desculpe, mas não foi possível carregar o vídeo, talvez seu
-              navegador não seja compatível
-            </video>
-          </div>
-        </article>
-      </section>
-      <footer id="rodape">
-        <h5>Copyright &copy; 2022 - by Emmanoel Wallace</h5>
-        <br />
-
-        <nav id="instagram">
-          <ul>
-            <li>
-              <a
-                href="https://www.instagram.com/emmanoelwallace/"
-                target="_blank"
-                >Instagram</a
+        <div class="caixa">
+          <div class="tv-radio">
+            <div class="caixa-video-audio">
+              <video
+                class="filme"
+                controls="controls"
+                poster="assets/src/images/video-mini03.jpg"
               >
-            </li>
-            <li>
-              <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
-            </li>
-          </ul>
-        </nav>
+                <source
+                  src="assets/src/videos/getting-started.mp4"
+                  type="video/mp4"
+                />
+                Desculpe, mas não foi possível carregar o vídeo, talvez seu
+                navegador não seja compatível
+              </video>
+              <audio class="musica" controls="controls">
+                <source
+                  src="assets/src/audio/2009-lovers-carvings-bibio.mp3"
+                  type="audio/mpeg"
+                />
+                Desculpe, mas não foi possível carregar o áudio, talvez seu
+                navegador não seja compatível
+              </audio>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <footer class="rodape">
+        <div><h4>Copyright &copy; 2022 - by Emmanoel Wallace</h4></div>
+
+        <div class="contatos">
+          <div class="contato-instagram">
+            <a href="https://www.instagram.com/emmanoelwallace/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div class="contato-whatsapp">
+            <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
