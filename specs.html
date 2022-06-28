@@ -16,6 +16,8 @@
       href="./assets/dist/css/estilo.css"
     />
     <link rel="stylesheet" type="text/css" href="./assets/dist/css/specs.css" />
+    <script src="https://unpkg.com/phosphor-icons" defer></script>
+    <script src="./assets/dist/js/app.js" defer></script>
   </head>
   <body>
     <div class="geral">
@@ -80,11 +82,41 @@
           de informações.
         </p>
 
-        <div class="specs-box">
-          <div data-modal="modal-tela" class="div1">Tela</div>
-          <div data-modal="modal-camera" class="div2">Câmera</div>
-          <div data-modal="modal-sensores" class="div3">Sensores</div>
-          <div data-modal="modal-bateria" class="div4">Bateria</div>
+        <div class="center">
+          <div class="specs-box">
+            <div
+              data-open="modal-tela"
+              role="button"
+              tabindex="0"
+              class="open-modal"
+            >
+              Tela
+            </div>
+            <div
+              data-open="modal-camera"
+              role="button"
+              tabindex="0"
+              class="open-modal"
+            >
+              Câmera
+            </div>
+            <div
+              data-open="modal-sensores"
+              role="button"
+              tabindex="0"
+              class="open-modal"
+            >
+              Sensores
+            </div>
+            <div
+              data-open="modal-bateria"
+              role="button"
+              tabindex="0"
+              class="open-modal"
+            >
+              Bateria
+            </div>
+          </div>
         </div>
       </article>
 
@@ -92,27 +124,173 @@
         <div><h4>Copyright &copy; 2022 - by Emmanoel Wallace</h4></div>
 
         <div class="contatos">
-          <div class="contato-instagram">
+          <div class="contato contato-instagram">
             <a href="https://www.instagram.com/emmanoelwallace/" target="_blank"
               >Instagram</a
             >
           </div>
-          <div class="contato-whatsapp">
+          <div class="contato contato-whatsapp">
             <a href="https://wa.me/77999920562" target="_blank">Whatsapp</a>
           </div>
         </div>
       </footer>
     </div>
+    <div id="container-modal-tela" class="container-modal">
+      <div class="modal-shadow"></div>
+      <div
+        id="modal-tela"
+        class="modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-header">
+          <h2 id="modal-title" class="modal-title">Tela</h2>
+          <i
+            class="ph-x"
+            role="button"
+            tabindex="0"
+            data-close="modal-tela"
+            aria-label="Close"
+          ></i>
+        </div>
+        <div class="modal-body">
+          <h3>Co&shy;mo o mun&shy;do vai a&shy;pa&shy;re&shy;cer</h3>
+          <p>
+            Do mesmo jeito de sempre, já que não tem óculos nenhum. Os óculos
+            contariam com uma pequena tela de LCD ou AMOLED na parte superior e
+            em frente aos olhos do usuário. Com a ideia da câmera e do GPS, você
+            poderia se situar (e ser vigiado por uma empresa enorme), assim como
+            selecionar opções com o movimento da cabeça.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button data-close="modal-tela" class="close-modal">Close</button>
+        </div>
+      </div>
+    </div>
 
-    <div
-      class="modal-container modal-tela modal-camera modal-bateria modal-sensores"
-    >
-      <div class="modal">
-        <button class="fechar-modal">x</button>
-        <h2 class="modal-h2">Tela</h2>
-        <h3 class="modal-h3">
-          Co&shy;mo o mun&shy;do vai a&shy;pa&shy;re&shy;cer
-        </h3>
+    <div id="container-modal-camera" class="container-modal">
+      <div class="modal-shadow"></div>
+      <div
+        id="modal-camera"
+        class="modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-header">
+          <h2 id="modal-title" class="modal-title">Câmera</h2>
+          <i
+            class="ph-x"
+            role="button"
+            tabindex="0"
+            data-close="modal-camera"
+            aria-label="Close"
+          ></i>
+        </div>
+        <div class="modal-body">
+          <h3>Como seriam os sensores desse projeto morto:</h3>
+          <p>
+            Com o Google Glass seria possível tirar fotos com até 5 megapixels e
+            gravar vídeos na resolução de 720p (o que, para a época não era um
+            valor tão baixo quanto parece ser hoje). Os primeiros vídeos e fotos
+            capturados com o aparelho até circularam na internet, "mas até agora
+            ninguém tem muitas informações técnicas." (Eu precisei deixar essa
+            frase do script original, porquê com o decorrer dos fatos, isso se
+            tornou hilário)
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button data-close="modal-camera" class="close-modal">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="container-modal-sensores" class="container-modal">
+      <div class="modal-shadow"></div>
+      <div
+        id="modal-sensores"
+        class="modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-header">
+          <h2 id="modal-title" class="modal-title">Sensores</h2>
+          <i
+            class="ph-x"
+            role="button"
+            tabindex="0"
+            data-close="modal-sensores"
+            aria-label="Close"
+          ></i>
+        </div>
+        <div class="modal-body">
+          <h3>A sensibilidade dos óculos</h3>
+          <p>
+            Quem pensa que o Google Glass teria a necessidade de teclado e mouse
+            para utilização, se engana redondamente (Ainda bem, pelo menos
+            isso). O dispositivo contaria com vários tipos de sensores e
+            microfones embutidos (Quanto mais eu desenvolvo esse site, mais eu
+            fico com medo desse projeto). Assim, para dar um comando, bastaria
+            falar ou passar o dedo na lateral do óculos (Previram os fones de
+            ouvido Bluetooth).
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button data-close="modal-sensores" class="close-modal">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="container-modal-bateria" class="container-modal">
+      <div class="modal-shadow"></div>
+      <div
+        id="modal-bateria"
+        class="modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-header">
+          <h2 id="modal-title" class="modal-title">Bateria e Gadgets</h2>
+          <i
+            class="ph-x"
+            role="button"
+            tabindex="0"
+            data-close="modal-bateria"
+            aria-label="Close"
+          ></i>
+        </div>
+        <div class="modal-body">
+          <h3>
+            Será que o Glass duraria mais que o iPhone da época em bateria?
+          </h3>
+          <p>
+            Segundo a própria Google, o Glass viria com uma bateria com
+            autonomia suficiente para durar um dia inteiro (caramba, mais que o
+            iPhone da época). Algumas atividades como videoconferências e longas
+            filmagens exigiriam um pouco mais (logicamente). Além disso ele
+            contaria com WiFi, Bluetooth, 3G/4G e outras funções que até hoje
+            não sabemos o que são.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button data-close="modal-bateria" class="close-modal">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div
+  class="modal-container modal-tela modal-camera modal-bateria modal-sensores"
+  >
+  <div class="modal">
+    <button class="fechar-modal">x</button>
+    <h2 class="modal-h2">Tela</h2>
+    <h3 class="modal-h3">
+      Co&shy;mo o mun&shy;do vai a&shy;pa&shy;re&shy;cer
+    </h3>
         <p class="modal-p">
           Do mesmo jeito de sempre, já que não tem óculos nenhum. Os óculos
           contariam com umapequena tela de LCD ou AMOLED na parte superior e em
@@ -123,7 +301,7 @@
       </div>
     </div>
 
-    <!-- <div id="modal-tela" class="modal-container">
+    <div id="modal-tela" class="modal-container">
       <div class="modal">
         <button class="fechar-modal">x</button>
         <h2>Tela</h2>
@@ -142,7 +320,7 @@
       <div class="modal">
         <button class="fechar-modal">x</button>
         <h2>Câmera</h2>
-        <h3>Filmar e fotografar a qualquer momento</h3>
+        <h3>Câmera</h3>
         <p>
           Com o Google Glass seria possível tirar fotos com até 5 megapixels e
           gravar vídeos na resolução de 720p (o que, para a época não era um
