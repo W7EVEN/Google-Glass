@@ -10,6 +10,10 @@
   margin: 30px auto;
 }
 
+.formulario input {
+  border-radius: 4px;
+}
+
 .formulario .form {
   border-radius: 5px;
   margin: 50px 20px;
@@ -94,8 +98,36 @@ textarea:hover {
   background-color: #d1d1d1;
 }
 
-@media all and (min-width: 900px) {
-  .formulario .form .texto {
-    columns: 20;
+@media screen and (max-width: 700px) {
+  .formulario .form {
+    margin: 24px 0;
+    min-height: 250px;
   }
+  .formulario .form textarea {
+    margin: 0 0 -15px 0;
+  }
+}
+
+.botao-enviar {
+  position: relative;
+  cursor: pointer;
+  padding: 10px 40px;
+  border-radius: 3px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #3aaedb;
+  border: 2px solid #3090b6;
+  border-bottom: 5px solid #3090b6;
+  text-shadow: 0px -2px #3090b6;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.botao-enviar:hover,
+.botao-enviar:active {
+  -webkit-transform: translate(0px, 5px);
+  -ms-transform: translate(0px, 5px);
+  transform: translate(0px, 5px);
+  border-bottom: 1px solid #3090b6;
 }

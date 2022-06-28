@@ -24,6 +24,18 @@ body {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #192041;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(112, 116, 155, 0.5);
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
